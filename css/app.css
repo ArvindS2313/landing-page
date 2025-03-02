@@ -1,0 +1,172 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a, button {
+    color: inherit;
+}
+
+header, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 1em 10%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+#hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 10%;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 0.5rem 0 0;
+}
+
+#hero p, #action p {
+    font-size: 1rem;
+    color: #E5E7EB;
+    padding: 1rem 0;
+}
+
+#hero div:nth-of-type(2) {
+    color: #E5E7EB;
+    background-color: rgb(90, 97, 106);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero button, #action button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 0.2rem;
+    border: none;
+    padding: 0.25em 1.25em;
+}
+
+#hero div {
+    width: 45%;
+}
+
+#images {
+    padding: 2rem 10% 4rem;
+}
+
+#images h2 {
+    font-size: 2rem;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+
+    padding-bottom: 1em;
+}
+
+#images div {
+    width: 80%;
+    aspect-ratio: 1/1;
+
+    border: 2px solid #3882F6;
+    border-radius: 1em;
+}
+
+#images p {
+    width: 80%;
+    font-size: 0.8em;
+}
+
+#images article {
+    display: flex;
+    justify-content: center;
+}
+
+#images figure {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+}
+
+#quote {
+    padding: 5rem 15%;
+    background-color: #E5E7EB;
+}
+
+#quote blockquote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #1F2937;
+}
+
+#quote p {
+    text-align: end;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#action {
+    padding: 4rem 10%;
+}
+
+#action > div {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 0.5rem;
+    padding: 2rem 5%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#action div div:nth-of-type(2) {
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}
+
+#action button {
+    height: 75%;
+    border: #F9FAF8 solid 1.5px;
+}
+
+#action h3 {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#action p {
+    padding: 0.5rem 0 0;
+}
+
+footer {
+    font-size: 0.9rem;
+    justify-content: center;
+}
